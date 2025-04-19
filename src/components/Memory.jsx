@@ -8,7 +8,9 @@ const Style = {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    height: "100vh",
+    minHeight: "100vh",
+    padding: "10px",
+    boxSizing: "border-box",
     // backgroundColor: "#457b9d",
   },
   scorecard: {
@@ -43,26 +45,23 @@ const Style = {
   },
   cardContainer: {
     display: "grid",
-    gridTemplateColumns: "repeat(6, 1fr)",
-    gridTemplateRows: "repeat(5, 1fr)",
-    // width: "300px",
-    // height: "300px",
+    gridTemplateColumns: "repeat(auto-fit, minmax(60px, 1fr))",
+    gap: "10px",
     padding: "20px",
-    // border: "1px solid black",
     borderRadius: "10px",
+    width: "90%",
+    maxWidth: "500px",
   },
   card: {
-    width: "70px",
-    height: "60px",
+    width: "100%",
+    aspectRatio: "1 / 1", // keeps cards square
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    // border: "1px solid black",
-    margin: "10px",
+    margin: "5px",
     backgroundColor: "#fefae0",
     borderRadius: "5px",
-    // color: "black",
-    fontSize: "30px",
+    fontSize: "clamp(16px, 5vw, 36px)", // responsive font size
   },
 };
 
