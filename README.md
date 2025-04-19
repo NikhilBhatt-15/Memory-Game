@@ -1,12 +1,43 @@
-# React + Vite
+# Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Memory Game is a simple and fun game designed to test and improve your memory skills. The objective is to match pairs of cards by remembering their positions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Interactive gameplay with a clean user interface.
+- Tracks the number of moves and time taken to complete the game.
+- Responsive design for both desktop and mobile devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/memorygame.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd memorygame
+   ```
+3. Open the `index.html` file in your browser to start the game.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## How to Play
+
+1. Click on a card to reveal its content.
+2. Try to find the matching card by remembering the positions.
+3. Match all pairs to win the game.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
